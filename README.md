@@ -225,7 +225,6 @@ FP and EH unwinding do not have corresponding java functions. Because compared t
 
 * [GitHub Issues](https://github.com/hexhacking/xUnwind/issues)
 * [GitHub Discussions](https://github.com/hexhacking/xUnwind/discussions)
-* [Telegram Public Group](https://t.me/android_native_geeks)
 
 
 ## Contributing
@@ -238,8 +237,3 @@ FP and EH unwinding do not have corresponding java functions. Because compared t
 ## License
 
 xUnwind is MIT licensed, as found in the [LICENSE](LICENSE) file.
-
-
-## History
-
-[xCrash 2.x](https://github.com/hexhacking/xCrash/tree/4748d183c1395c54bfb760ec6c454966d52ab73f) contains a set of methods [xcc\_unwind\_*](https://github.com/hexhacking/xCrash/tree/4748d183c1395c54bfb760ec6c454966d52ab73f/src/native/common) to get backtrace, which is used to try to get backtrace directly from the signal handler when the dumper child process fails. Now we have improved and expanded this set of functions so that they can be used in more scenarios.

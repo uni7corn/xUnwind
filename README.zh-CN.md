@@ -225,7 +225,6 @@ FP 和 EH 栈回溯没有对应的 java 函数。因为相对于 CFI 栈回溯�
 
 * [GitHub Issues](https://github.com/hexhacking/xUnwind/issues)
 * [GitHub Discussions](https://github.com/hexhacking/xUnwind/discussions)
-* [Telegram Public Group](https://t.me/android_native_geeks)
 
 
 ## 贡献
@@ -238,8 +237,3 @@ FP 和 EH 栈回溯没有对应的 java 函数。因为相对于 CFI 栈回溯�
 ## 许可证
 
 xUnwind 使用 [MIT 许可证](LICENSE)。
-
-
-## 历史
-
-[xCrash 2.x](https://github.com/hexhacking/xCrash/tree/4748d183c1395c54bfb760ec6c454966d52ab73f) 包含一组用于获取 backtrace 的方法 [xcc\_unwind\_*](https://github.com/hexhacking/xCrash/tree/4748d183c1395c54bfb760ec6c454966d52ab73f/src/native/common) ，它们用于在 dumper 子进程执行失败时，在信号处理函数中直接获取 backtrace。现在，我们完善和扩展了这组方法，使它们能被用于更多的场景中。
